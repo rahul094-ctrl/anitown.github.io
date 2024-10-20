@@ -1,0 +1,320 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.nav{
+    background-color:#333;
+    height:90px;
+    display:flex;
+    align-content:center;
+    justify-content:space-between;
+
+}
+.nav-links{
+    display:flex;
+    text-align: center;
+    gap:30px;
+    list-style:none;
+    margin-top:35px;
+}
+.nav-links a{
+    text-decoration:none;
+    text-align:center;
+    color:white;
+    font-size: 20px;
+   
+}
+#img1{
+    margin-top:20px;
+    margin-left:30px;
+    height:50px;
+}
+#text1{
+    height:30px;
+    margin-top:30px;
+    border-radius:10px;
+}
+#bt{
+    height:30px;
+    margin-top:32px;
+    width:44px;
+    border-radius:10px;
+}
+.login-info a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+.login-info{
+    list-style:none;
+    display:flex;
+    margin-top:35px;
+    gap:15px;
+}
+.login-info a:hover{
+    color:green;
+}
+.nav-links a:hover{
+    color:green;
+}
+.ani-img{
+    background-image:linear-gradient(to right,rgba(8, 13, 9, 0.8),rgba(242, 245, 243, 0.5)),url(one-piece.jpg);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#p1{
+    padding-top:100px;
+    font-size:20px;
+    color:rgb(150, 161, 77);
+    padding-left:30px;
+}
+#onepiece{
+    margin-top:10px;
+    margin-left:20px;
+    color:white;
+    font-size:50px;
+}
+#p2{
+    margin-left:30px;
+    margin-top:10px;
+    font-size:15px;
+    color:rgb(217, 222, 219);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#onesub{
+    margin-left:30px;
+    margin-top:20px;
+    border-radius:25px;
+    height:50px;
+    width:150px;
+    background-color:rgb(173, 173, 21);
+    }
+#onesub:hover{
+    border-radius:25px;
+    height:70px;
+    width:170px;
+    background-color:rgb(41, 41, 7);
+    font-family: serif;
+}
+#onesub a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    
+    
+}
+#twosub{
+    margin-left:30px;
+    margin-top:20px;
+    border-radius:25px;
+    height:50px;
+    width:150px;
+    background-color:rgb(173, 173, 21);
+}
+#twosub:hover{
+    border-radius:25px;
+    height:70px;
+    width:170px;
+    background-color:rgb(41,41,7);
+    font-family:serif;
+}
+#twosub a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    
+}
+body{
+    background-color:#333
+}
+#opt{
+    height:30px;
+    margin-top:30px;
+    margin-right:100px;
+}
+#trend{
+    text-align: center;
+    color:rgb(173, 173, 21);
+    margin-top:20px;
+}
+.a{
+    display:inline-block;
+    height:332px;
+    width:229px;
+    background-image:url(https://i.pinimg.com/736x/74/c4/df/74c4df581d8116884ac7bff50ef195ea.jpg);
+    background-size:cover;
+    background-position: center;
+    margin-left:10px;
+    margin-top:20px;
+}
+.b{
+    display:inline-block;
+    height:332px;
+    width:229px;
+    background-image:url(https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/6e008ad5211c3998b8f3e4bc166821cd.jpg);
+    background-size:cover;
+    background-position:center;
+    margin-left:20px;
+}
+.c{
+    display:inline-block;
+    height:332px;
+    width:229px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVdVCJtsOhSJwVfUwrXOQO5nE2bc9z1Lacg&s);
+    background-position:center;
+    background-size:cover;
+    margin-left:20px;
+}
+.d{
+    display:inline-block;
+    height:332px;
+    width:229px;
+    background-image:url(https://wordery.com/jackets/692ca75a/the-angel-next-door-spoils-me-rotten-6-saekisan-author-hanekoto-illustrator-9781975372583.jpg?width=166&height=250);
+    background-position:center;
+    background-size:cover;
+    margin-left:20px;
+}
+.e{
+    display:inline-block;
+    height:332px;
+    width:229px;
+    background-image:url(https://i5.walmartimages.com/seo/Pokemon-XY-Ash-Ketchum-Pikachu-Laminated-Framed-Poster-24-x-36_bcab31db-fb5e-4c1e-bf0b-6c2cf5d6b046.dbd030a8645ea844ac355a0d1d73a639.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF);
+    background-size:cover;
+    background-position:center;
+    margin-left:20px;
+}
+.f{
+    display:inline-block;
+    height:332px;
+    width:229px;
+    background-image:url(https://m.media-amazon.com/images/M/MV5BMzg2YjA0NGYtYjQwMS00MDQyLWFlNWMtODVhNTBkYWIyNjE1XkEyXkFqcGc@._V1_.jpg);
+    background-size:cover;
+    background-position:center;
+    margin-left: 20px;
+}
+.g{
+    display:inline-block;
+    height:100px;
+    width:229px;
+    border-style:solid;
+    margin-left:10px;
+    border-width: 0.1px;
+    margin-top:0px;
+    text-align: center;
+    border-radius:5px;
+}
+.g a{
+    color:white;
+    text-decoration:none;
+}
+.g a:hover{
+    color:green;
+}
+.h{
+    display:inline-block;
+    height:100px;
+    width:229px;
+    border-style:solid;
+    border-width:0.1px;
+    margin-left:20px;
+    text-align:center;
+    border-radius:5px;
+}
+.h a{
+    text-decoration:none;
+    color:white;
+}
+.h a:hover{
+    color:green;
+}
+.i{
+    display:inline-block;
+    height:100px;
+    width:229px;
+    border-style:solid;
+    border-width:0.1px;
+    margin-left:17px;
+    text-align:center;
+    border-radius:5px;
+    
+}
+.i a{
+    text-decoration:none;
+    color:white;
+}
+.i a:hover{
+    color:green;
+}
+.j{
+    display:inline-block;
+    height:100px;
+    width:229px;
+    border-style:solid;
+    border-width:0.1px;
+    margin-left:16px;
+    text-align:center;
+    border-radius:5px;
+}
+.j a{
+    text-decoration:none;
+    color:white;
+}
+.j a:hover{
+    color:green;
+}
+.k{
+    display:inline-block;
+    height:100px;
+    width:229px;
+    border-style:solid;
+    border-width:0.1px;
+    margin-left:18px;
+    text-align:center;
+    border-radius:5px;
+}
+.k a{
+    text-decoration:none;
+    color:white;
+}
+.k a:hover{
+    color:green;
+}
+.l{
+    display:inline-block;
+    height:100px;
+    width:229px;
+    border-style:solid;
+    border-width:0.1px;
+    margin-left:19px;
+    text-align:center;
+    border-radius:5px;
+}
+.l a{
+    text-decoration:none;
+    color:white;
+}
+.l a:hover{
+    color:green;
+}
+#yt{
+    height:300px;
+    background-color:black;
+}
+#p3{
+    text-align:center;
+    color:white;
+    font-size: 10px;
+    padding-top: 30px;
+}
+#searchbox{
+    margin-right:400px;
+    width:450px;
+}
+#linkdiv{
+    margin-right:100px;
+}
+#lf{
+    margin-right:10px;
+}
